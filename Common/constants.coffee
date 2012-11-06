@@ -1,0 +1,2 @@
+
+exports.WINNING_STATE = 999999
