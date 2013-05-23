@@ -1,0 +1,11 @@
+{
+  "name": "snake-ai",
+  "version": "1.0.0",
+  "dependencies": {
+    "sprintf": "~0.1.1",
+    "colors": "~0.6.0-1",
+    "underscore": "~1.4.4",
+    "read": "~1.0.4",
+    "optimist": "~0.5.0"
+  }
+}

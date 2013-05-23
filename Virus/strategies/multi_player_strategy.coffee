@@ -27,7 +27,6 @@ class MaxNStrategy extends Strategy
 
         return children
 
-
     heuristic: (state, player) ->
         return state.numSpacesControlledByPlayers()
 
@@ -49,7 +48,6 @@ class MaxNStrategy extends Strategy
                 val = res.score[player]
                 tuple = res.score
                 bestMove = child.move
-        console.log "d#{depth} Best move", bestMove, "first:", children[0].move if depth == 4
 
         return score: tuple, move: bestMove
 
